@@ -98,3 +98,24 @@ body {
   max-width: 450px;
   min-height: 40px;
 }
+@media screen and (max-width: 700px) {
+  .top-banner form {
+    flex-direction: column;
+  }
+   
+  .top-banner form input,
+  .top-banner form button {
+    width: 100%;
+  }
+ 
+  .top-banner form button {
+    margin: 20px 0 0 0;
+  }
+   
+  .top-banner form .msg {
+    position: static;
+    max-width: none;
+    min-height: 0;
+    margin-top: 10px;
+  }
+}
