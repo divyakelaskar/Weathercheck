@@ -1,0 +1,49 @@
+:root {
+  --bg_main: #0a1f44;
+  --text_light: #fff;
+  --text_med: #53627c;
+  --text_dark: #1e2432;
+  --yellow: #fffb1e;
+  --darkyellow: #c0c311;
+  --orange: #ff8c00;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+ 
+button {
+  cursor: pointer;
+}
+  
+input {
+  -webkit-appearance: none;
+}
+  
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+ 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ 
+ul {
+  list-style: none;
+}
+ 
+body {
+  font: 1rem/1.3 "Roboto", sans-serif;
+  background: var(--bg_main);
+  color: var(--text_dark);
+  padding: 50px;
+}
