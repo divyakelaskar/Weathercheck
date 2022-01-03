@@ -179,7 +179,7 @@ body {
   font-size: 5rem;
   font-weight: bold;
   margin-top: 10px;
-  color: var(--text_dark);
+  color: var(--bg_main);
 }
  
 .ajax-section .city sup {
