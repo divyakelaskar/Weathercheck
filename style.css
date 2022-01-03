@@ -198,3 +198,8 @@ body {
   width: 100px;
   height: 100px;
 }
+
+footer a {
+	color: var(--yellow);
+  font-size: 1.2em;
+}
